@@ -1,5 +1,5 @@
 function unobsv = checkObservability(A, C)
-   % Returns the energy-observable matrix. If this matrix is full rank, the system is proved to be observable.
+   % Returns the observable matrix. If this matrix is full rank, the system is proved to be observable.
    % If it is not full rank, the number of unobservables = the number of rows of the A matrix - the rank of the observable matrix.
     Ob = obsv(A,C);
    % Returns the number of unobservables.
